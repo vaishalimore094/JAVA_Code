@@ -1,0 +1,43 @@
+package Prime_number;
+//Prime number is a number that is greater than 1 and divided by 1 or itself only.
+//In other words, prime numbers can't be divided by other numbers than itself or 1.
+//For example 2, 3, 5, 7, 11, 13, 17.... are the prime numbers.
+
+
+public class Prime_number {//prime no is divided by 1
+
+
+			public static void main(String[] args) {
+			// E.g 2,3,4,5,6,7,8,9,10,11.
+			int num = 6;
+			int count = 0;
+			int rem;
+			for(int i = 2; i<num; i++)
+			
+		{
+			 rem =num%i;
+			if(rem == 0)//---------reminder!=0----then prime
+			{
+			count++;
+			break;
+			}
+			
+			
+		}
+			
+			if (count>0)//(count == 1)
+			{
+			System.out.println("Given Number "+num+" is Non-Prime");
+			}
+			else
+			{
+			System.out.println("Given Number "+num+" is Prime");
+			}
+
+	}
+
+}
+
+//output---------------------------------------
+
+Given Number 6 is Non-Prime
