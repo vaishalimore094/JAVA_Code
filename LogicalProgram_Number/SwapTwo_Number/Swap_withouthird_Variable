@@ -1,0 +1,23 @@
+package Swap_two_number;
+
+public class Swap_withoutthird_number {
+
+	public static void main(String[] args) {
+		int a=10;
+		int b=20;
+		
+		a=a+b;
+		b=a-b;
+		System.out.println("print b value "+b);
+	
+		a=a-b;
+		System.out.println("print a value  "+a);
+		
+
+
+	}
+}
+
+//output--------------------------------------------------------------------------------------
+print b value 10
+print a value  20
