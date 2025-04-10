@@ -14,3 +14,7 @@ public class Swap_withthird_Number {
 	}
 
 }
+
+//output
+print a value  20
+print b value 10
