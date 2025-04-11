@@ -11,13 +11,16 @@ public class Odd_evenNumber {
 		
 	if(num%2==0)
 	{
-		System.out.println("Number is Even");
+		System.out.println(" Given Number is Even");
 	}
 	else
 	{
-	System.out.println("Number is odd");	
+	System.out.println(" Given Number is odd");	
 	}
   }
 	}
+//output-------------------------------------------------------------------------------------------
+1
+ Given Number is odd
 
 
