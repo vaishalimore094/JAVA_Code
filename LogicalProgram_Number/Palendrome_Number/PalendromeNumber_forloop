@@ -1,0 +1,31 @@
+public class Palendromeforloop_Number {
+
+ public static void main(String[] args) {
+	 //first we need to reverse number
+		int num =121;
+		int revNum =0;
+		int temp=num;
+		int rem;
+		for (int i = temp; i>0; i = temp)
+		{
+		 rem = i % 10;//2
+		revNum = revNum*10+ rem;//32
+		temp=temp/10;//1
+		}
+		System.out.println(revNum);
+
+	
+ if (num==revNum)
+	{
+		System.out.println( " Palondrome number");
+		
+	}
+	else
+	{
+		System.out.println(" NOTPalondrome number");
+	}
+	}
+
+//output-------------------------------------------------------------------
+121
+ Palondrome number
